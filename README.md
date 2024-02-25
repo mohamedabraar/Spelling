@@ -8,6 +8,9 @@ The challenge ahead of you is to implement the fastest spell checker you can! By
 - `speller.c`: This program is designed to spell-check a file after loading a dictionary of words from disk into memory.
 - `dictionary.c`: Contains the implementation for the dictionary.
 - `dictionary.h`: Contains the prototypes for functions used in `dictionary.c`. Both `speller.c` and `dictionary.c` include this file for function declarations.
+- `Keys`: Contains all mispelled words.
+- `Large Dictionary`: Contains a large collection of words.
+- `Small Dictionary`: Contains a small collection of words.
 
 ## Instructions
 1. Implement the loading of the dictionary from disk into memory.
